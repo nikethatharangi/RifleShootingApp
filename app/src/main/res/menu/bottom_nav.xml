@@ -3,8 +3,8 @@
 
     <item
         android:id="@+id/bottom_camera"
-        android:title="Camera"
-        android:icon="@drawable/camera"></item>
+        android:title="Profile"
+        android:icon="@drawable/baseline_account_box_24"></item>
     <item
         android:id="@+id/bottom_home"
         android:title="Home"
@@ -12,5 +12,5 @@
     <item
         android:id="@+id/bottom_timeline"
         android:title="Timeline"
-        android:icon="@drawable/access_time"></item>
+        android:icon="@drawable/baseline_access_time_filled_24"></item>
 </menu>

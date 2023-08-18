@@ -12,6 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RifleShootingApp"
         tools:targetApi="31">
+
+
+        <activity
+            android:name=".Posturecheck"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise"
+            android:exported="false" />
         <activity
             android:name=".Home"
             android:exported="false" />

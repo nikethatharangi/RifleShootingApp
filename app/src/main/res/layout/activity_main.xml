@@ -65,5 +65,5 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.537"
         app:strokeColor="#144454"
-        app:strokeWidth="3dp" /> />
+        app:strokeWidth="2dp" /> />
 </androidx.constraintlayout.widget.ConstraintLayout>
