@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/loginsign"
+    android:background="@drawable/loginsignin"
     tools:context=".Login" >
 
     <Button
@@ -19,11 +19,11 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtpassword"
-        app:layout_constraintVertical_bias="0.661"
+        app:layout_constraintVertical_bias="1.0"
         app:strokeColor="#8AA3A6"
         app:strokeWidth="3dp"
-        tools:targetApi="p"
-        tools:ignore="NewApi" />
+        tools:ignore="NewApi"
+        tools:targetApi="p" />
 
     <TextView
         android:id="@+id/textView4"
@@ -50,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.691" />
 
     <TextView
         android:id="@+id/txtpassword"
@@ -71,10 +71,10 @@
         android:textSize="50px"
         app:layout_constraintBottom_toTopOf="@+id/txtusername"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintHorizontal_bias="0.263"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.909" />
 
     <TextView
         android:id="@+id/textView3"
