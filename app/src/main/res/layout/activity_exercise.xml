@@ -8,7 +8,7 @@
     tools:context=".Exercise">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnBackOne"
         android:layout_width="wrap_content"
         android:layout_height="49dp"
         android:layout_weight="0"
@@ -62,7 +62,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_weight="1"
-                        android:text="Perfect Posture,Perfect Aim!"
+                        android:text="Build Grip Strength"
                         android:textColor="#FFFFFF"
                         android:textSize="60px" />
                 </LinearLayout>
@@ -75,32 +75,31 @@
                     <ImageView
                         android:id="@+id/imageView5"
                         android:layout_width="220dp"
-                        android:layout_height="200dp"
-                        android:src="@drawable/shooter" />
+                        android:layout_height="150dp"
+                        android:src="@drawable/grip" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
-                        android:layout_marginTop="35dp"
+                        android:layout_marginTop="15dp"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView21"
                             android:layout_width="wrap_content"
                             android:layout_height="10dp"
-                            android:layout_weight="0.7"
-                            android:text="Click here to"
+                            android:layout_weight="0.1"
+                            android:text="5 Exercises "
                             android:textColor="#FFFFFF"
                             android:textSize="40px" />
 
                         <TextView
                             android:id="@+id/textView22"
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_weight="0.7"
-                            android:text="check your"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-60dp"
+                            android:text="to Build Massive"
                             android:textColor="#FFFFFF"
                             android:textSize="40px" />
 
@@ -108,21 +107,21 @@
                             android:id="@+id/textView23"
                             android:layout_width="wrap_content"
                             android:layout_height="10dp"
-                            android:layout_marginLeft="30dp"
-                            android:layout_weight="0.7"
-                            android:text="Posture"
+
+                            android:layout_weight="0.1"
+                            android:text="Grip Strength"
                             android:textColor="#FFFFFF"
                             android:textSize="40px" />
 
                         <Button
-                            android:id="@+id/button4"
+                            android:id="@+id/btnGripExe"
                             android:layout_width="wrap_content"
                             android:layout_height="49dp"
-                            android:layout_marginTop="30dp"
                             android:layout_marginBottom="20dp"
+                            android:layout_marginTop="-50dp"
                             android:layout_weight="0"
                             android:backgroundTint="#144454"
-                            android:text="Check"
+                            android:text="Go"
                             app:strokeColor="#8AA3A6"
                             app:strokeWidth="3dp"
 
@@ -157,7 +156,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_weight="0"
-                        android:text="Perfection in every shot"
+                        android:text="exercises you should do"
                         android:textColor="#043F49"
                         android:textSize="40px"
                         android:textStyle="bold" />
@@ -168,7 +167,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_weight="0"
-                        android:text="Strength in every move!"
+                        android:text="for Pistol Shooting"
                         android:textColor="#043F49"
                         android:textSize="60px"
                         android:textStyle="bold" />
@@ -192,17 +191,17 @@
                         android:layout_width="218dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/arm" />
+                        android:src="@drawable/fitarm" />
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/btnArmExe"
                         android:layout_width="wrap_content"
                         android:layout_height="49dp"
                         android:layout_marginTop="60dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
                         android:backgroundTint="#ffffff"
-                        android:text="Let's go!"
+                        android:text="Go"
                         android:textColor="#144454"
                         app:strokeColor="#144454"
                         app:strokeWidth="3dp" />
@@ -215,10 +214,11 @@
 
             <LinearLayout
                 android:layout_width="350dp"
-                android:layout_height="200dp"
+                android:layout_height="120dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/corner"
+                android:backgroundTint="#8AA3A6"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -234,78 +234,30 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_weight="1"
-                        android:text="Perfect Posture,Perfect Aim!"
-                        android:textColor="#FFFFFF"
-                        android:textSize="60px" />
+                        android:text="Learn Breathing Techniques"
+                        android:textColor="#144454"
+                        android:textSize="60px"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:orientation="horizontal">
+                    android:layout_height="70dp"
 
-                    <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="220dp"
-                        android:layout_height="200dp"
-                        android:src="@drawable/shooter" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="35dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:layout_weight="0.7"
-                            android:text="Click here to"
-                            android:textColor="#FFFFFF"
-                            android:textSize="40px" />
-
-                        <TextView
-                            android:id="@+id/textView12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_weight="0.7"
-                            android:text="check your"
-                            android:textColor="#FFFFFF"
-                            android:textSize="40px" />
-
-                        <TextView
-                            android:id="@+id/textView13"
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:layout_marginLeft="30dp"
-                            android:layout_weight="0.7"
-                            android:text="Posture"
-                            android:textColor="#FFFFFF"
-                            android:textSize="40px" />
-
-                        <Button
-                            android:id="@+id/button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="49dp"
-                            android:layout_marginTop="30dp"
-                            android:layout_marginBottom="20dp"
-                            android:layout_weight="0"
-                            android:backgroundTint="#144454"
-                            android:text="Check"
-                            app:strokeColor="#8AA3A6"
-                            app:strokeWidth="3dp"
-
-                            />
+                    android:orientation="vertical">
 
 
-                    </LinearLayout>
-
-
+                    <Button
+                        android:id="@+id/btnBreathExe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="49dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="240dp"
+                        android:backgroundTint="#144454"
+                        android:text="Watch"
+                        app:strokeColor="#ffffff"
+                        app:strokeWidth="3dp" />
                 </LinearLayout>
-
 
             </LinearLayout>
 
