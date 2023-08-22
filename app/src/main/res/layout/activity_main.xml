@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/splashscreen"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <TextView
         android:id="@+id/textView"
@@ -15,7 +16,7 @@
         android:fontFamily="sans-serif-smallcaps"
         android:text="Shooter"
         android:textColor="#043F49"
-        android:textSize="120px"
+        android:textSize="45dp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,5 +55,5 @@
         app:layout_constraintVertical_bias="0.537"
         app:strokeColor="#144454"
         app:strokeWidth="2dp" />
-    />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

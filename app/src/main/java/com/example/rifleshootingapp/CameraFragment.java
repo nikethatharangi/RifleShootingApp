@@ -71,7 +71,7 @@ private void setupPieChart() {
 
 
     pieChart.getDescription().setEnabled(false); // Hide description
-    pieChart.setCenterText("Pie Chart");
+    //pieChart.setCenterText("Pie Chart");
     pieChart.animateY(1000);
 
     pieChart.invalidate();
